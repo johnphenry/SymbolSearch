@@ -94,3 +94,15 @@ int main(){
 	printf("Size of each node: %ld\n", sizeof(struct lnode));
 	printf("Bytes used: %ld\n", sizeof(struct lnode) * numAllocs);
 }
+
+/*My output:
+'TEST' has value 5
+Symbol 'WAH' does not exist.
+'WORD' has value 42
+'THING' has value 57
+'LONGERIDENTIFIER' has value 21
+Symbol 'TESTS' does not exist.
+Current number of allocated nodes: 64
+Size of each node: 208
+Bytes used: 13312
+*/
